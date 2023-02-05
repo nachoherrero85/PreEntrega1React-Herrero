@@ -18,7 +18,7 @@ function NavBar() {
             <NavContainer>
 
                 <div><img src={logoempresa}></img></div>
-                <h2>Airplane <span>Hoby</span></h2>
+                <a href=''> <h2>Airplane <span>Hoby</span></h2></a>
 
                 <div className={`links ${clicked ? "active" : ""}`}>
                     < a href='/'>HOME</a>
@@ -46,6 +46,7 @@ h2 {
     font-weight: 400;
     color: white;
     align-items: center;
+    
 
     span{
         font-weight: bold;

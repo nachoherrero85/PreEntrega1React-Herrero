@@ -6,7 +6,7 @@ function CartWidget() {
     return (
         <Carrito>
             {<div className='carrito1'>
-                <a><h3>4</h3><img src={carrito}></img></a>
+                <a href=''><h3>4</h3><img src={carrito}></img></a>
 
             </div>
 
