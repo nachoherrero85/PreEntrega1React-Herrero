@@ -1,13 +1,13 @@
 import React from "react";
 import styled from 'styled-components'
 
-const Saludo = (props) => {
+const ItemListContainer = (props) => {
     return (
 
         <Salu>
 
             <h2>
-                Hola <a href=""><span>{props.usuario}</span></a>, bienvenido.
+                Hola <a href=""><span>{props.greeting}</span></a>, bienvenido.
             </h2>
 
         </Salu>
@@ -16,7 +16,7 @@ const Saludo = (props) => {
 
 }
 
-export default Saludo;
+export default ItemListContainer;
 
 const Salu = styled.div`
 h2{
